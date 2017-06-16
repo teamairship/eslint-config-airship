@@ -1,5 +1,5 @@
 {
-  "name": "@airship/eslint-config-airship",
+  "name": "eslint-config-airship",
   "version": "1.0.0",
   "description": "This package provides Airship's .eslintrc as an extensible shared config.",
   "main": "index.js",
