@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-airship",
+  "name": "@airship/eslint-config-airship",
   "version": "1.0.0",
   "description": "This package provides Airship's .eslintrc as an extensible shared config.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/teamairship/eslint-config-airship.git"
+    "url": "git+https://github.com/teamairship/eslint-config-airship.git"
   },
   "keywords": [
     "eslint",
