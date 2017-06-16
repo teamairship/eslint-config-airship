@@ -6,6 +6,8 @@ This package provides Airship's .eslintrc as an extensible shared config. We ext
 
 The export lints ES6/2015+. It requires `eslint`.
 
+install: `npm install --save-dev eslint-config-airship eslint`
+
 See [Airbnb's Javascript styleguide](https://github.com/airbnb/javascript) and
 the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files)
 for more information.
