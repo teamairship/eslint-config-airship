@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-airship",
+  "version": "1.0.0",
+  "description": "This package provides Airship's .eslintrc as an extensible shared config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teamairship/eslint-config-airship.git"
+  },
+  "keywords": [
+    "eslint",
+    "airship",
+    "config"
+  ],
+  "author": "Alex Hinson <alex@teamairship.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamairship/eslint-config-airship/issues"
+  },
+  "homepage": "https://github.com/teamairship/eslint-config-airship",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^7.1.0",
+    "eslint-plugin-import": "^1.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1"
+  }
+}
