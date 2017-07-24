@@ -21,10 +21,11 @@
     "url": "https://github.com/teamairship/eslint-config-airship/issues"
   },
   "homepage": "https://github.com/teamairship/eslint-config-airship",
-  "dependencies": {},
-  "devDependencies": {
-    "eslint": "^3.19.0",
+  "dependencies": {
     "eslint-config-airbnb-base": "^7.2.0",
     "eslint-plugin-import": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
   }
 }
