@@ -1,8 +1,7 @@
 module.exports = {
   extends: require.resolve('eslint-config-airbnb-base'),
   rules: {
-
-    'comma-dangle': [2, 'always-multiline'],
+    'comma-dangle': ['error', 'never'],
 
     'class-methods-use-this': [0],
 
@@ -15,5 +14,14 @@ module.exports = {
     'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
 
     'max-len': ['error', 130],
-  },
+
+    'no-use-before-define': [
+      'error',
+      {
+        variables: false
+      }
+    ],
+
+    'arrow-body-style': ['error', 'as-needed']
+  }
 };
