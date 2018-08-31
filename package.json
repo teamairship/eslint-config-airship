@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-airship",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This package provides Airship's .eslintrc as an extensible shared config.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,8 @@
   "homepage": "https://github.com/teamairship/eslint-config-airship",
   "dependencies": {
     "eslint-config-airbnb-base": "^7.2.0",
-    "eslint-plugin-import": "^2.7.0"
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1"
   },
   "devDependencies": {
     "eslint": "^3.19.0"
