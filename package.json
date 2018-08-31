@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-airship",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "This package provides Airship's .eslintrc as an extensible shared config.",
   "main": "index.js",
   "scripts": {

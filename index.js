@@ -3,15 +3,13 @@ module.exports = {
   rules: {
     'arrow-body-style': ['error', 'as-needed'],
 
+    'arrow-parens': ['error', 'as-needed'],
+
     camelcase: 0,
 
     'comma-dangle': ['error', 'never'],
 
     'class-methods-use-this': [0],
-
-    'arrow-body-style': ['error', 'always'],
-
-    'arrow-parens': ['error', 'as-needed'],
 
     'flowtype/no-types-missing-file-annotation': 0,
 
