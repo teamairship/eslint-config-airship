@@ -13,7 +13,7 @@ module.exports = {
 
     'flowtype/no-types-missing-file-annotation': 0,
 
-    'import/prefer-default-export': 'none',
+    'import/prefer-default-export': 0,
 
     'import/no-extraneous-dependencies': [
       'error',
